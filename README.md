@@ -1,204 +1,147 @@
-# Auramen
-Aura Men is a confidential, premium men’s performance mentorship brand helping ambitious men overcome sexual performance challenges through a structured, science-backed approach that restores confidence, control, and long-term vitality without pills or quick fixes.
-Here is your **detailed, professional GitHub README.md** file for the Aura Men project:
+# Wixstro - Wix Astro Template
 
----
+A modern, full-featured Wix Astro template built with React, TypeScript, and Tailwind CSS. This template provides a solid foundation for building dynamic, interactive websites with Wix's powerful ecosystem.
 
-# AURA MEN – The Science of Presence
+## 🚀 Features
 
-Premium men’s performance mentorship platform built for high-converting, confidential client acquisition.
+- **Astro Framework** - Modern static site generator with server-side rendering
+- **React Integration** - Full React support with JSX components
+- **TypeScript** - Type-safe development experience
+- **Tailwind CSS** - Utility-first CSS framework with custom components
+- **Wix Integration** - Seamless integration with Wix services and APIs
+- **Modern UI Components** - Radix UI components with custom styling
+- **Authentication** - Built-in member authentication and protected routes
+- **CMS Integration** - Content management system integration
+- **Client-side Routing** - React Router for seamless navigation
+- **Responsive Design** - Mobile-first responsive design
+- **Testing** - Vitest testing framework setup
+- **Development Tools** - ESLint, TypeScript checking, and more
 
----
+## 🛠️ Tech Stack
 
-## 🚀 Overview
+- **Framework**: Astro 5.8.0
+- **Frontend**: React 18.3.0
+- **Styling**: Tailwind CSS 3.4.14
+- **Language**: TypeScript 5.8.3
+- **UI Components**: Radix UI
+- **State Management**: Zustand
+- **Forms**: React Hook Form with Zod validation
+- **Testing**: Vitest
+- **Build Tool**: Vite
+- **Deployment**: Cloudflare
 
-Aura Men is a premium, conversion-focused website designed to generate qualified leads for a men’s performance mentorship business. The platform positions Aura Men as a discreet, science-backed mentorship program helping ambitious men overcome sexual performance challenges through structured guidance — without pills, gimmicks, or medical claims.
 
-This repository contains the technical foundation, website structure, and lead-generation architecture for building and scaling the Aura Men digital presence.
+## 🚀 Getting Started
 
----
+### Prerequisites
 
-## 🎯 Project Objectives
+- Node.js (version 18 or higher)
+- npm or yarn package manager
+- Wix account and site
 
-* Generate qualified consultation bookings
-* Build immediate trust and authority
-* Communicate confidentiality and discretion
-* Position Aura Men as a premium mentorship brand
-* Automate lead capture and client pipeline
-* Maintain lean infrastructure with high scalability
+### Installation
 
----
+1. **Install dependencies**:
+   ```bash
+   npm run install-template
+   ```
 
-## 🧠 Brand Positioning
+2. **Set up environment variables**:
+   ```bash
+   npm run env
+   ```
 
-Aura Men targets ambitious men aged 25–45 facing performance challenges such as:
+3. **Start development server**:
+   ```bash
+   npm run dev
+   ```
 
-* Performance anxiety
-* Libido decline
-* Stress-related dysfunction
-* Dopamine imbalance
-* Lifestyle-induced vitality decline
+The development server will start and you can view your site at `http://localhost:4321`.
 
-The platform avoids:
-
-* Medical claims
-* Explicit imagery
-* Quick-fix marketing tactics
-
-It emphasizes:
-
-* Structured mentorship
-* Root-cause approach
-* Nervous system regulation
-* Performance psychology
-* Masculine presence restoration
-
----
-
-## 🏗️ Tech Stack (Lean & Scalable)
-
-### Frontend
-
-* Framer or Webflow (Primary Website Builder)
-* Responsive dark luxury UI
-* SEO optimized structure
-* Mobile-first design
-
-### Integrations
-
-* Calendly (Consultation booking)
-* ConvertKit (Email automation & lead capture)
-* Notion or Airtable (CRM tracking)
-* Zapier (Automation workflows)
-
-### Infrastructure
-
-* Custom domain (auramen.com)
-* Google Workspace (Branded email)
-* SSL secure hosting
-* Google Analytics + Search Console
-
----
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-/homepage
-/consultation-page
-/performance-assessment
-/privacy-policy
-/terms
-/assets
-    /images
-    /icons
-    /branding
-/automation
-    /email-sequences
-    /crm-structure
+main/
+├── src/
+│   ├── components/          # React components
+│   │   ├── ui/             # Reusable UI components
+│   │   ├── Head.tsx        # Page head component
+│   │   └── Router.tsx      # Routing component
+│   ├── hooks/              # Custom React hooks
+│   ├── lib/                # Utility functions
+│   ├── pages/              # Astro pages
+│   └── styles/             # Global styles
+├── integrations/           # Wix integrations
+│   ├── cms/               # CMS integration
+│   └── members/           # Member authentication
+├── public/                # Static assets
+└── eslint-rules/          # Custom ESLint rules
 ```
 
----
+## 🎨 UI Components
 
-## 🔄 Lead Funnel Architecture
+This template includes a comprehensive set of UI components built with Radix UI and styled with Tailwind CSS:
 
-Traffic Sources:
+- **Layout**: Accordion, Collapsible, Tabs, Sheet
+- **Forms**: Input, Select, Checkbox, Radio Group, Switch
+- **Navigation**: Navigation Menu, Menubar, Breadcrumb
+- **Feedback**: Alert, Toast, Progress, Skeleton
+- **Overlays**: Dialog, Popover, Tooltip, Hover Card
+- **Data Display**: Table, Card, Badge, Avatar
+- **Interactive**: Button, Toggle, Slider, Command
 
-* Instagram
-* LinkedIn
-* YouTube
-* Organic SEO
+## 🔧 Available Scripts
 
-Flow:
-Content → Website → Performance Audit Form → Email Automation → Calendly Booking → Consultation → Client Enrollment
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run release` - Release to Wix
+- `npm run env` - Pull environment variables
+- `npm run check` - Type check with Astro
+- `npm run test:run` - Run tests
+- `npm run install-template` - Install dependencies
 
----
+## 🧪 Testing
 
-## 📈 Key Features
+The project includes Vitest for testing:
 
-* Premium dark-themed UI
-* Clear authority messaging
-* AURA Method™ framework integration
-* Multi-tier service presentation
-* Anonymous testimonials
-* Confidential lead capture form
-* Automated email nurture sequence
-* Integrated consultation booking
-* Legal disclaimer and privacy compliance
+```bash
+npm run test:run
+```
 
----
+## 📱 Responsive Design
 
-## 📊 Conversion Strategy
+The template is built with a mobile-first approach and includes:
 
-The website is designed around:
+- Responsive breakpoints
+- Touch-friendly interactions
+- Optimized images
+- Flexible layouts
 
-1. Recognition (Problem normalization)
-2. Reassurance (You are not broken)
-3. Authority (Structured framework)
-4. Differentiation (No pills, no gimmicks)
-5. Action (Book consultation)
+## 🚀 Deployment
 
-Multiple CTA placements and exit-intent lead magnets support higher conversion rates.
+The template is configured for deployment on Cloudflare:
 
----
+```bash
+npm run build
+```
 
-## 🔐 Confidentiality & Compliance
+## 🤝 Contributing
 
-* No medical diagnosis or treatment claims
-* Clear mentorship disclaimer
-* GDPR consent on forms
-* Secure data handling practices
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run tests and linting
+5. Submit a pull request
 
----
+## 🆘 Support
 
-## 💰 Business Model
+For support and questions:
 
-Primary Revenue:
+- Check the [Wix Developer Documentation](https://dev.wix.com/)
+- Review the [Astro Documentation](https://docs.astro.build/)
 
-* 12-Week Private Mentorship Program
-
-Secondary Revenue:
-
-* Self-guided digital program
-* Elite Inner Circle (application-based)
-
-Low overhead, high-margin service-based model.
 
 ---
 
-## 🛠️ Setup Instructions (High-Level)
-
-1. Purchase domain and configure DNS
-2. Set up Google Workspace branded email
-3. Build website using Framer/Webflow
-4. Integrate ConvertKit forms
-5. Connect Calendly booking system
-6. Set up CRM tracking (Notion/Airtable)
-7. Install analytics tracking
-8. Test lead capture and booking flow
-9. Launch
-
----
-
-## 📌 Future Roadmap
-
-* Advanced CRM (HubSpot)
-* Paid advertising funnel
-* Member dashboard
-* Digital course hosting
-* Scaled group programs
-* Premium content engine
-
----
-
-## 🧭 Vision
-
-Aura Men aims to become a leading premium men’s vitality mentorship brand by combining structured performance frameworks, discretion, and high-trust digital infrastructure.
-
----
-
-## ⚖️ Disclaimer
-
-Aura Men provides mentorship and lifestyle education only. This platform does not diagnose, treat, or cure medical conditions.
-
----
-
+Built with ❤️ using Wix Vibe, Astro, and modern web technologies.
